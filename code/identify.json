@@ -1,0 +1,110 @@
+{
+    "displayFieldName": "FORMAL_PARTICIPANT_NAME",
+    "fieldAliases": {
+        "OBJECTID": "OBJECTID",
+        "HA_PROGRAM_TYPE": "HA_PROGRAM_TYPE",
+        "STD_ADDR": "STD_ADDR",
+        "STD_CITY": "STD_CITY",
+        "STD_ST": "STD_ST",
+        "STD_ZIP5": "STD_ZIP5",
+        "FORMAL_PARTICIPANT_NAME": "FORMAL_PARTICIPANT_NAME",
+        "HA_PHN_NUM": "HA_PHN_NUM",
+        "HA_EMAIL_ADDR_TEXT": "HA_EMAIL_ADDR_TEXT"
+    },
+    "geometryType": "esriGeometryPoint",
+    "spatialReference": {
+        "wkid": 102100,
+        "latestWkid": 3857
+    },
+    "fields": [
+        {
+            "name": "OBJECTID",
+            "type": "esriFieldTypeOID",
+            "alias": "OBJECTID"
+        },
+        {
+            "name": "HA_PROGRAM_TYPE",
+            "type": "esriFieldTypeString",
+            "alias": "HA_PROGRAM_TYPE",
+            "length": 9
+        },
+        {
+            "name": "STD_ADDR",
+            "type": "esriFieldTypeString",
+            "alias": "STD_ADDR",
+            "length": 50
+        },
+        {
+            "name": "STD_CITY",
+            "type": "esriFieldTypeString",
+            "alias": "STD_CITY",
+            "length": 28
+        },
+        {
+            "name": "STD_ST",
+            "type": "esriFieldTypeString",
+            "alias": "STD_ST",
+            "length": 2
+        },
+        {
+            "name": "STD_ZIP5",
+            "type": "esriFieldTypeString",
+            "alias": "STD_ZIP5",
+            "length": 5
+        },
+        {
+            "name": "FORMAL_PARTICIPANT_NAME",
+            "type": "esriFieldTypeString",
+            "alias": "FORMAL_PARTICIPANT_NAME",
+            "length": 60
+        },
+        {
+            "name": "HA_PHN_NUM",
+            "type": "esriFieldTypeString",
+            "alias": "HA_PHN_NUM",
+            "length": 13
+        },
+        {
+            "name": "HA_EMAIL_ADDR_TEXT",
+            "type": "esriFieldTypeString",
+            "alias": "HA_EMAIL_ADDR_TEXT",
+            "length": 60
+        }
+    ],
+    "features": [
+        {
+            "attributes": {
+                "OBJECTID": 2999,
+                "HA_PROGRAM_TYPE": "Combined",
+                "STD_ADDR": "914 N 3rd St",
+                "STD_CITY": "Wills Point",
+                "STD_ST": "TX",
+                "STD_ZIP5": "75169",
+                "FORMAL_PARTICIPANT_NAME": "Housing Authority of Wills Point",
+                "HA_PHN_NUM": "9038732152",
+                "HA_EMAIL_ADDR_TEXT": "wpha914@sbcglobal.net"
+            },
+            "geometry": {
+                "x": -10687350.164999999,
+                "y": 3857667.4390999973
+            }
+        },
+        {
+            "attributes": {
+                "OBJECTID": 3219,
+                "HA_PROGRAM_TYPE": "Section 8",
+                "STD_ADDR": "115 N Adelaide St Ste 305",
+                "STD_CITY": "Terrell",
+                "STD_ST": "TX",
+                "STD_ZIP5": "75160",
+                "FORMAL_PARTICIPANT_NAME": "Terrell Housing Authority",
+                "HA_PHN_NUM": "9725516600",
+                "HA_EMAIL_ADDR_TEXT": "jayers@cityofterrell.org"
+            },
+            "geometry": {
+                "x": -10717428.5801,
+                "y": 3860441.6234000027
+            }
+        }
+    ]
+}
